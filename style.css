@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    background: linear-gradient(119deg, rgba(72,30,181,1) 21%, rgba(112,139,203,1) 81%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    font-size: 50px;
+    font-weight: 1000;
+    color: #fff;
+}
+header span{
+    display: block;
+    color: rgb(215, 194, 76);
+}
+.main-container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input{
+    height: 80px;
+    background: rgba(255, 255, 255, 0.3);  /* Optional: Semi-transparent background */
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#date, #calculate{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+#date{
+    width: 300px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#calculate{
+    width: 100px;
+    background-color: rgb(215, 194, 76);
+    font-size: 10px;
+}
+
+p{
+    color: #fff;
+    font-size: 22px;
+    word-spacing: 3px;
+}
